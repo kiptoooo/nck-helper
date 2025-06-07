@@ -1,13 +1,15 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  background-color: #f0f4f8;
+  background-color: #e6f0fa;
 }
 #chat-toggle {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: linear-gradient(135deg, #0077cc, #005fa3);
+  background: linear-gradient(135deg, #004c99, #007acc);
+  color: white;
+  border: none;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -29,14 +31,6 @@ body {
   flex-direction: column;
   overflow: hidden;
 }
-#chat-header {
-  background: linear-gradient(135deg, #0077cc, #005fa3);
-  color: white;
-  padding: 12px;
-  font-size: 18px;
-  text-align: center;
-  font-weight: bold;
-}
 #messages {
   flex: 1;
   padding: 16px;
@@ -45,5 +39,5 @@ body {
 #messages div { margin-bottom: 12px; }
 #input { display: flex; border-top: 1px solid #ddd; background: #fafafa; }
 #input input { flex: 1; padding: 12px; border: none; outline: none; font-size: 14px; }
-#input button { padding: 12px; background: #005fa3; color: white; border: none; cursor: pointer; font-weight: bold; }
-#input button:hover { background: #0077cc; }
+#input button { padding: 12px; background: #007acc; color: white; border: none; cursor: pointer; font-weight: bold; }
+#input button:hover { background: #005fa3; }
